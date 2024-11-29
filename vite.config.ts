@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
     };
   } else {
     return {
-      base: "/bsit-vue/",
+      // base: "/bsit-vue/",
       plugins: [vue()],
     };
   }
